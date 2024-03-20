@@ -1,5 +1,7 @@
-const playwright = require('playwright')
-const { Before, After, BeforeAll, AfterAll } = require('@cucumber/cucumber')
+// const playwright = require('playwright')
+// const { Before, After, BeforeAll, AfterAll } = require('@cucumber/cucumber')
+import { After, AfterAll, Before, BeforeAll } from '@cucumber/cucumber'
+import playwright from 'playwright'
 
 BeforeAll(async function () {
   console.log('BeforeAll')
